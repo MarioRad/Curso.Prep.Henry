@@ -1,0 +1,52 @@
+- Variables
+  - Strings
+  - Funciones (argumentos, `return`)
+  - Declaraciones `if`
+  - Valores booleanos (`true`, `false`)
+
+//Strings
+
+Los Strings, son un conjunto de caracteres, estos pueden ser letras mayusculas o minusculas, numeros y simbolos, tenes que tener especial cuidado que los caracteres no sean comillas, "" '', simples o dobles. Generalmente estan entre estas, las comillas.
+String significa 'cadena', entonces decimos que un String es una 'cadena de caracteres'.
+
+//Funciones
+
+Las funciones son una porcion de codigo de nuestro programa o sistema que son repetitivos. Para evitar escribir nuevamente el código cada vez que necesitamos hacer una operación, para esto creamos una funcion. por ejemplo:
+
+function sumar(x,y)
+{
+suma=x+y;
+return suma:
+}
+
+Este es un ejemplo de la funcion suma(), esta funcion recibe dos valores ( los llamamos argumentos) 'x' e 'y'. Lo que hace la funcion es sumar los valores que enviamos en las variables x e y... y despues de realizar el calculo nos devuelve el resultado en la variable suma. Entonces cada vez que en nuestro programa necesitemos hacer una suma de dos valores llamaremos a la funcion sumar().
+Los parametros tambien pueden ser String, en este caso en JS lo que hace es concatenar (agrupar) los valores de los parametros que enviemos.
+Por ej.
+
+si en la variable x envio el valor "Hola", y en la variable y " Mundo", el resultado de la 'suma' sería "Hola Mundo".
+
+// If() {}... else{}
+
+Las declaraciones If () son utilizadas para operaciones que nos den por resultado un valor logico, significa Si().
+Por ejemplo:
+
+Tengo que averiguar si un número es mayor a otro, para ello creo una funcion numeroMayor(), la cual recibe dos parametros (x,y).
+Ahora tengo que realizar la 'pregunta logica' ¿x es mayor que y?, en caso que sea afirmativo debo mostrar 'El valor mayor es: ??', sino debo mostrar el otro valor, para eso utilizamos el comando 'else' que significa 'sino'. A continuacion el ejemplo de la funcion.
+
+// x=2;
+// y=3;
+
+function numeroMayor(x,y){
+if (x<y) // nos dará el valor false, por que 'y' es mayor.
+{
+return ("El número mayor es",x); //
+}
+else
+{
+return ("El número mayor es ",y); // nos devuelve 'El número mayor es 3'
+}
+
+// Valores Booleanos
+
+Los valores Booleanos pueden recibir unicamente dos estados (true,false) verdadero o falso,
+como vimos en el parrafo anterior en la funcion hicimos una comparacion de cual valor recibido era mayor, para ello utilizamos el comando if(), el cual nos devuelve valores Booleanos. Es como una llave para encender las luces, apagado(false) o encendido(true).
