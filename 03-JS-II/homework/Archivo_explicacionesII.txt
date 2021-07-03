@@ -1,0 +1,80 @@
+Explicaciones de Conceptos:
+
+
+* `for`
+* `&&`, `||`, `!`
+
+
+*//For (valor de variable inicial; expresion condicional, incremento de valor de variable){} //*
+
+Es un comando que permite repetir una cantidad de veces una instruccion o un conjunto de instrucciones,
+a esto lo llamamos, bucle (repeticion).
+
+Por Ej.:
+
+For (let i=0; i<5; i++) {
+
+console.log('Hola'); 
+
+}
+
+Donde, let i=0 -> se inicializa la variable 'i' en un valor cero.
+
+Despúes tenemos una expresión condicional, que en este caso se cumple mientras el valor de 'i' no 
+sea mayor a cinco -> 'i<5' entonces continua con la ejecucion del comando, pasando a la siguiente etapa.
+
+Para i++, es donde se incrementa el valor de i en uno por cada vez que se cumpla la expresion condicional, 
+ ++ es un operador utilizado en muchos lenguajes de programacion, entre ellos JS.
+
+console.log('Hola');  ---> Nos mostrará por consola el mensaje de 'Hola' por la cantidad de
+veces que se repite el 'bucle', en este caso 5 veces.
+
+Nota: A tener en cuenta cuando creamos un bucle, ya que podemos llegar a crear un 'bucle infinito',
+esto quiere decir, que la instruccion no tendrá un final definido en la expresion condicional, por ej:
+
+For (i=2;i>1;i++){
+
+}
+
+En este caso, la variable 'i' se inicializa en un valor 2, y la expresion condicional 'pregunta' 
+'si i es mayor que 1', entonces siempre se cumple esa condicion, más si incrementamos el valor de 'i' en uno
+entonces tenemos el caso de un bucle infinito. 
+
+*// Operadores Lógicos   &&  ||  !
+
+Son operadores utilizados para concatenar operadores de igualdad.
+
+&& : AND   -> Y
+|| : OR    -> O
+!  : NOT   -> No
+
+Por Ej.: 
+
+If (i=0 && f<10){
+
+}
+
+En este ejemplo evaluamos la condicion i=0 y a su vez la condicion f<10, si se cumplen 'ambas'
+se ejecutan los siguientes comandos por que se cumplen ambas condiciones 'true', en caso de 
+que no se cumpla alguna de ellas devuelve un 'false' y salta la ejecucion de los comandos.
+
+Volviendo con ejemplo anterior:
+
+If (i=0 || f<10){
+
+}
+
+se evalua la misma condicion que en el ejemplo anterior, pero con el operador lógico 'OR',
+con esto buscamos que 'al menos una' de las condiciones inpuestas se cumplan, i=0 'OR' f<10
+en caso de que una se cumpla, ejecuta los comandos o instrucciones que siguen.
+Si no cumple ninguna de las dos condiciones no se ejecutan los comandos.
+
+! NOT
+
+Este operador lógico es para negar una expresión lógica, por ejemplo:
+
+If (i!=0){
+
+}
+
+En el ejemplo la condición se cumplirá siempre y cuando el valor de 'i no sea igual a 0'.
