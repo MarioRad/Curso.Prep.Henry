@@ -1,0 +1,48 @@
+// Arrays
+
+Los arrays son arreglos, o mejor dicho matrices.
+Las matrices, arreglos o arrays, pueden contener cadenas de caracteres, en lo que se incluyen:
+ - caracteres númericos
+ - caracteres alfabeticos
+ - simbolos
+
+ Las caracteristicas que tienen los arrays, es de mantener los datos en posiciones, al igual que 
+ lo hacen en una biblioteca con los libros. 
+ No pueden ocupar una misma posicion dos libros, en este caso no pueden ocupar una misma posicion
+ dos datos en un arreglo.
+
+ Ej. de Array:
+
+Libros = ['Cocina', 'Mecánica', 'Lengua', 'Matemáticas', 'Idiomas']
+posicion      0         1           2           3           4
+
+Cada uno de los valores dentro del array ocupa una posicion, es por eso que para acceder al libro de Lengua,
+accedemos a la posición 2.
+Para  acceder a un valor en este caso al libro de Lengua utilizamos:
+
+Libros=[2]; // como resultado obtenemos 'Lengua'
+
+Como ocurre en la biblioteca, los libros pueden cambiar de lugar, ser agregados, eliminados, modificados.
+
+nombrearray.push('valor') ---> para colocar un valor dentro del array, siempre que ya esté declarado el array
+
+nombrearray.pop() ----> para extraer un valor dentro del array, siempre que ya esté declarado el array
+
+* para ambos casos, tanto la extraccion como la adiccion será desde el ultimo elemento del array
+
+Ej. 
+
+Libros.push('Biología');
+
+Libros = ['Cocina', 'Mecánica', 'Lengua', 'Matemáticas', 'Idiomas', 'Biología']
+
+Ahora el array tendrá 6 posiciones, recuerda que se empieza a contar de la posicion '0'.
+
+
+Libros.pop();
+Libros = ['Cocina', 'Mecánica', 'Lengua', 'Matemáticas', 'Idiomas'] // vuelve a tener 5 posiciones
+
+También existen otros dos métodos, .unshift y .shift, estos métodos trabajan de forma similar a los 
+anteriores, solo que la adicción o la extracción será desde el primer elemento del array.
+
+
