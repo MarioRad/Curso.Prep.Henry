@@ -1,0 +1,58 @@
+* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+
+// Objetos:
+
+Los objetos son colecciones de propiedades, y las propiedades son asociaciones entre el nombre 
+y el valor. Son similares a los Arrays pero con un indice númerico.
+
+Ej:
+
+objeto={
+    propiedad1=valor1;
+    propiedadn=valorn;
+}
+
+Un objeto puede tener multiples propiedades. Por ejemplo:
+
+Tengo un objeto "auto", el cual tiene muchas propiedades similares a otros autos, pero propiedades
+únicas de este objeto.
+
+auto={
+    color='rojo';
+    modelo='1992';
+    ruedas='4';
+    ventanas='4';
+    puertas='2';
+    patente='A09874';
+}
+
+Se puede acceder a las propiedades de los objetos, como lo haciamos con los elementos del array
+pero tiene la caracteristica que no lo llamamos por el indice 'array[1]' sino por su propiedad 
+auto['modelo'], se utiliza un string en cuenta del Nº. Hay dos formas de acceder a las propiedades de los objetos, 
+por 'dot notation' o 'Bracket notation'. 
+
+objeto.propiedad; // dot notation
+objeto['propiedad']; // Bracket notation 
+
+También podemos agregar métodos a los objetos, como una propiedad más, siempre cumpliento los mismos requisitos.
+
+ objeto = {                     // método que retorna un string.
+    metodo: funcion(){
+        return 'string';
+    }
+}
+
+//Palabra clave o keyword (this)
+
+Por ejemplo, si se quiere acceder a una propiedad e imprimir el valor de una propiedad. 
+Debemos crear otro método, pero no podemos referirnos directamente a él, JS nos devolvería un error.
+Entonces accedemos a la propiedad utilizando la palabra reservada 'this', en donde 'this' se refiere 
+al objeto, pero no siempre es así, ya que depende de donde la usemos, su valór será diferente.
+
+
+
