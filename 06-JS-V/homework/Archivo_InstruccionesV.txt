@@ -1,0 +1,21 @@
+* `prototype`
+* _Constructors_ (de Clases)
+
+//Prototype:
+
+Es un Prototipo, en JS un objeto tiene otro objeto que es el prototype, es una fuente de propiedades
+alternativa, es una propiedad de Object, el objeto de donde derivan todos los demás objetos y 
+a su vez ese objeto es propiedad de un objeto, por lo cual el prototipo último de un objeto es 
+el Objeto.prototype. Ese prototipo padre tiene métodos que comparten todos los objetos.
+
+Las funciones y los arrays (arreglos), recordemos que también son objetos, tienen prototipos
+con propiedades especificas.
+
+
+// _Constructors_
+
+Es el código que se ejecuta cuando se crea un objeto de un tipo determinado, cada objeto creado 
+se denomina instancia. Cuando se instancia un objeto funciona como 'constructor' todo el código
+declarado dentro de la función, todo el código dentro de la función que puede ser ejecutado se
+ejecutará.
+Entonces decimos que es una funcion que crea un objeto a partir de un prototipo vacío.
