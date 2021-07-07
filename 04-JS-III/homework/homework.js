@@ -140,7 +140,6 @@ function cuentoElementos(arreglo) {
     }
   }
   return items;
-
 }
 
 
