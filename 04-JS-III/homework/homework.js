@@ -210,12 +210,10 @@ function mayorACien(array) {
     if (array[i] > 100) {
       nvo.push(array[i]);
     } else {
-
     }
   }
   return nvo;
 }
-
 
 function breakStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
