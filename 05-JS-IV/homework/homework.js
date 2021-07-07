@@ -15,7 +15,6 @@ function crearGato(nombre, edad) {
     }
   };
   return objeto;
-
 }
 
 
