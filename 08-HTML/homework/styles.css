@@ -1,0 +1,26 @@
+
+body{
+
+}
+
+.divClass {
+
+
+}
+
+.thirDiv {
+    weight: 600px;
+    width: 500px;
+    background-color: gainsboro;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+.spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+#divId {
+    
+}
