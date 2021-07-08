@@ -1,0 +1,17 @@
+Funciones Callback (Llamadas de vuelta)
+
+Es una función que recibe como argumento otra función y la ejecuta.
+
+Ej.:
+
+function fruta(ensalada){
+    // hace algo 
+    ensalada();
+}
+
+Es importante saber que cuando pasamos una función (callback), solo pasamos la definición de la función,
+y no la ejecutamos. La función que la contiene elige cuando ejecutar la función (callback).
+
+Se puede utilizar como un patrón de soluciones a problemas comunes, están muy relacionadas
+con la programación funcional, nos pueden ayudar a no repetir el código, por ende al mantenimiento.
+
